@@ -762,7 +762,7 @@ namespace AuthSecure
                     Stopwatch stopwatch = new Stopwatch();
                     stopwatch.Start();
 
-                    var raw_response = client.UploadValues("https://authsecure.shop/post/api.php", post_data);
+                    var raw_response = client.UploadValues("https://horrorgamingkeyauth.shop/post/api.php", post_data);
 
                     stopwatch.Stop();
                     responseTime = stopwatch.ElapsedMilliseconds;
